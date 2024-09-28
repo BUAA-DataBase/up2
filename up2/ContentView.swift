@@ -1,22 +1,28 @@
 //
 //  ContentView.swift
-//  up2
+//  Up2
 //
-//  Created by 周子皓 on 2024/9/27.
+//  Created by Haoxiang Zhong on 2024/7/14.
 //
 
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+    
+//    var body: some View {
+//        ZStack {
+//            IndexView()
+//                .onAppear {
+//                    requestPhotoLibraryAccess()
+//                }
+//        }
+//    }
+
+        
+        var body: some View {
+            //CameraView()
+            UpcyclingView()
         }
-        .padding()
-    }
 }
 
 #Preview {
